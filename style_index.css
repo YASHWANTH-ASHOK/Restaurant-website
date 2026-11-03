@@ -162,6 +162,9 @@ body {
   overflow: hidden;
   cursor: pointer;
   position: relative;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -198,11 +201,12 @@ body {
    margin-left: 35px;
    width: 250px;
    margin-bottom: 10px;
-   margin-top: 10px;
+   margin-top: auto;
    font: bold;
    font-weight: 600;
    font-size: 15px;
    transition: 0.5s ease;
+
 }
 
 .card-button:hover {
